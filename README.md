@@ -4,7 +4,7 @@
 <br>
 _www.2BitProgrammers.com_
 <br>
-_Copyright (C) 2020. All Rights Reserved._
+_Copyright (C) 2024. All Rights Reserved._
 <br><br>
 
 Courseware for class which teaches software engineering with Python. All files are meant for instructional purpose.
