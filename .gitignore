@@ -14,3 +14,4 @@ config*.json
 creds.json
 junk.csv
 junk.txt
+mysql.sock
