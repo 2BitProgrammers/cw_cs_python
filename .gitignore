@@ -15,3 +15,7 @@ creds.json
 junk.csv
 junk.txt
 mysql.sock
+
+## Once created, we don't want to check in any changes 
+docker/mediawiki/data/
+docker/xwiki/data/
