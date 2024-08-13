@@ -18,4 +18,6 @@ mysql.sock
 
 ## Once created, we don't want to check in any changes 
 docker/mediawiki/data/
+docker/mediawiki/data/*
 docker/xwiki/data/
+docker/xwiki/data/*
