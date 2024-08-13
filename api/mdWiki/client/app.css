@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+
+.errorText {
+    color: darkred;
+    font-weight: bold;
+}
+
+.tBold {
+    font-weight: bold;
+}
+
+.tData {
+    font-style: italic;
+}
+
+.jsonData {
+    color: purple;
+    font-style: italic;
+}
+
+#taMarkdownCode {
+    width: 100%;
+    columns: 80;
+    box-sizing: border-box; 
+}
+
+#txtWikiId {
+    width: 82px;
+    text-align: center;
+    /*
+    background-color: lightgray;
+    */
+}

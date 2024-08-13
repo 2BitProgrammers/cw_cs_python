@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Markdown Wiki</title>
+        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body onload="wiki_itemList_getAll();">
+        <div id="divPageList">
+            <h3>Markdown Wiki</h3> 
+            <table>
+                <tr>
+                    <td>
+                        <button id="btnLoadMarkdown" onClick="wiki_itemList_getAll();">
+                        List All Items
+                        </button>
+                    </td>
+                    <td>
+                        <button id="btnCreateWiki" onClick="wiki_new_showForm();">
+                        Create New Page
+                        </button>
+                    </td>
+                </tr>
+                <tr>                    
+                    <td>
+                        <input id="txtWikiId" type="text" value="1">
+                    </td>
+                    
+                    <td>
+                        <button id="btnLoadWiki" onClick="wiki_html_get();">
+                        Display Wiki HTML
+                        </button>
+                    </td>
+                    <td>
+                        <button id="btnLoadMarkdown" onClick="wiki_edit_markdown();">
+                        Edit Markdown
+                        </button>
+                    </td>  
+                    <td>
+                        <button id="btnDeleteWiki" onClick="wiki_delete();">
+                        Delete Page
+                        </button>
+                    </td>                  
+                </tr>
+            </table>
+            <br>
+            <hr>
+        </div>
+        
+        <br>
+
+        <div id="divPageContent">
+            <!--
+            <button id="btnEdit" onClick="wiki_edit();">
+                <img src="edit.png" alt="Edit" width="17px" height="17px">
+            </button>
+            -->
+            <i>Data not found.</i>
+        </div>
+
+        <br><br>
+    </body>
+</html>
