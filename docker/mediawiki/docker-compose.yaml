@@ -1,4 +1,10 @@
 ## To run:  docker-compose -f docker-compose.yaml up
+##
+## To stop:  CTRL+C
+##      or:  docker-compose stop
+##
+## To remove:  docker-compose down
+##
 
 version: '3'
 
