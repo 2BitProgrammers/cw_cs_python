@@ -1,0 +1,16 @@
+## To start:   docker-compose up
+## To stop:    CTRL + C
+##             docker-compose down
+
+version: "3"
+
+services:
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "./index.html:/usr/share/nginx/html/index.html:rw"
+
+
